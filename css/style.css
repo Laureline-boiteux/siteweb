@@ -1,0 +1,140 @@
+body {
+  background-color: #EEC4F3;
+}
+
+
+h3 {
+  font-size: 25px;
+  color: #9E3581;
+  margin: 15px;
+  padding: 20px;
+  text-align: center;
+ }
+
+h2 {
+ font-size: 25px;
+  color: rgb(119, 93, 80);
+  margin: 15px;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 100px;
+  color:  rgb(119, 93, 80);
+  text-align: center;
+}
+
+h4 {
+  color: rgb(119, 93, 80);
+} 
+
+.image_pinceaux { 
+     width: 550px;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+    }
+
+
+.test {
+  text-align: center;
+}
+
+#onglets
+{
+    font : bold 15px Batang, Arial, serif;
+    list-style-type : none;
+    padding-bottom : 50px; 
+    border-bottom : 1px solid #9EA0A1;
+    margin-left : 0;
+}
+
+#onglets li
+{
+    float : left;
+    height : 30px; 
+    background-color: #855D89;
+    margin : 2px 2px 0 2px !important; 
+    margin : 1px 2px 0 2px;  
+    border : 1px solid #9EA0A1;
+}
+
+#onglets li.active
+{
+    border-bottom: 1px solid #fff;
+    background-color: #fff;
+}
+
+#menu
+{
+        border-bottom : 1px solid #9EA0A1;
+        padding-bottom : 25px;
+}
+
+.border {
+  border-top: dashed #855D89;
+  margin: 20px;
+  padding: 10px;
+  text-align: center;
+  font-size: 20px;
+  color: rgb(119, 93, 80);
+}
+
+html{
+
+scroll-padding-top: 5rem/*pour le saut de page, a ajuster selon les besoins*/
+
+}
+
+*{box-sizing: border-box}
+
+.slider-scroll {
+
+width: 500px;
+max-width: 100%;
+max-height:300px;
+margin: 2rem auto;
+display: flex;
+overflow-x: hidden;
+scroll-behavior: smooth;
+scroll-snap-type: x mandatory;
+-webkit-overflow-scrolling: touch;
+}
+
+.slider-scroll img {
+scroll-snap-align: center;
+min-width: 100%;
+ border-radius: 5px;
+  
+}
+
+.ancre {
+  
+margin: 1rem auto;
+display: flex;
+justify-content: center;
+
+}
+  
+.ancre li{
+  
+display: inline-flex;
+justify-content: center;
+align-items:center;
+width: 30px;
+height: 30px;
+background: #404040;
+border-radius: 50%;
+}
+  
+.ancre li a{color:white}
+  
+.ancre li:not(:last-child){
+  margin-right: 30px;
+}
+
+
+.ancre li a:hover {
+  opacity: 0.5;
+}
